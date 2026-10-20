@@ -25,7 +25,7 @@ const customJestConfig = {
   },
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["<rootDir>/tests/setupTests.ts"],
-  testMatch: ["<rootDir>/tests/**/*.test.ts?(x)"],
+  testMatch: ["**/tests/**/*.test.ts", "**/tests/**/*.test.tsx"],
 };
 
 export default createJestConfig(customJestConfig);

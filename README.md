@@ -1,5 +1,13 @@
 Aplicação simples de lista de tarefas feita com Next.js 15, App Router e TypeScript.
 
+## Instalação
+
+Use Node.js 20 ou superior e instale as dependências:
+
+```bash
+npm install
+```
+
 ## Executar a aplicação
 
 ```bash
